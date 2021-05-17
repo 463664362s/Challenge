@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login.css" type="text/css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="loginbox">
+            <div class="logininputs">
+                <label for="idTxtEmail">Email:</label>
+                <input type="text" name="txtEmail" id="idTxtEmail" placeholder="Digite seu email."
+                oninvalid="setCustomValidity('É obrigatório o preenchimento deste campo.')"
+                pattern="[a-zA-Z0-9.-_]{3,30}@[a-z0-9-_]{2,10}.[a-z0-9.]{2,7}" required><br>
+                <label for="idTxtEmail">Senha:</label>
+                <input type="text" name="txtEmail" id="idTxtEmail" placeholder="Digite sua senha."
+                oninvalid="setCustomValidity('É obrigatório o preenchimento deste campo.')" required><br>
+                <input class="button" type="submit">
+            </div>
+            <hr>
+            <a class = "esqueci" href="./esquecisenha.html">Esqueci minha senha.</a><br>
+            <a class = "contanova" href="./cadastro.html">Não tenho uma conta.</a>
+        </div>
+    </div>
+    </body>
+</html>
