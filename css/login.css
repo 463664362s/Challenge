@@ -1,0 +1,37 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #2F4F4F;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+    }
+
+.loginbox {
+    width: 25vw;
+    height: 35vh;
+    background: #fff;
+    }
+
+.logininputs {
+    margin: 2% 25%;
+}
+
+.button {
+    margin-left: 2.6%;
+}
+
+.loginbox a{
+    margin: 5% 35%;
+}
+
+input {
+    width: 12vw;
+    height: 3vh;
+    margin: 0% 0% 5% 1%;
+}
+
+body {
+    margin: 0%;
+}
