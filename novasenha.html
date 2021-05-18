@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/novasenha.css" type="text/css">
+    <title>Nova Senha</title>
+</head>
+<body>
+    <div class="container">
+        <div class="novasenhabox">
+            <div class="inputs">
+                <label for="idTxtEmail">Digite sua nova senha:</label><br>
+                <input type="text" name="txtEmail" id="idTxtEmail" placeholder="Digite sua nova senha."
+                oninvalid="setCustomValidity('É obrigatório o preenchimento deste campo.')"
+                pattern="[a-zA-Z0-9.-_]{3,30}@[a-z0-9-_]{2,10}.[a-z0-9.]{2,7}" required><br>
+                <label for="idTxtCfemail">Confirme sua nova senha:</label><br>
+                <input type="text" name="txtCfemail" id="idCfemail" placeholder="Confirme sua nova senha."
+                oninvalid="setCustomValidity('É obrigatório o preenchimento deste campo.')"
+                pattern="[a-zA-Z0-9.-_]{3,30}@[a-z0-9-_]{2,10}.[a-z0-9.]{2,7}" required><br>
+                <a href="./login.html"><input type="submit"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
