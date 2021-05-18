@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cadastro.css" type="text/css">
     <title>Cadastro</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="cadastrobox">
+            <div class="cadastroinputs">
+                <label for="idTxtEmail">Nome:</label>
+                <input type="text" name="txtEmail" id="idTxtEmail" placeholder="Digite seu Nome."
+                oninvalid="setCustomValidity('É obrigatório o preenchimento deste campo.')" required><br>
+                <label for="idTxtEmail">Data de nascimento:</label>
+                <input type="date" name="dtEmail" id="idDtEmail" placeholder="Digite sua senha."
+                oninvalid="setCustomValidity('É obrigatório o preenchimento deste campo.')" required><br>
+                <label for="idTxtEmail">E-Mail:</label>
+                <input type="text" name="txtEmail" id="idTxtEmail" placeholder="Digite seu email."
+                oninvalid="setCustomValidity('É obrigatório o preenchimento deste campo.')" required><br>
+                <label for="idTxtEmail">Senha:</label>
+                <input type="text" name="txtEmail" id="idTxtEmail" placeholder="Digite sua senha."
+                oninvalid="setCustomValidity('É obrigatório o preenchimento deste campo.')" required><br>
+                <label for="idTxtEmail">Confirmar senha:</label>
+                <input type="text" name="txtEmail" id="idTxtEmail" placeholder="Confirme sua senha."
+                oninvalid="setCustomValidity('É obrigatório o preenchimento deste campo.')" required><br>
+                <a href="./menu.html"><input class="button" type="submit"></a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
