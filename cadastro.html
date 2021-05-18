@@ -11,19 +11,20 @@
         <div class="cadastrobox">
             <div class="cadastroinputs">
                 <label for="idTxtEmail">Nome:</label>
-                <input type="text" name="txtEmail" id="idTxtEmail" placeholder="Digite seu Nome."
+                <input type="text" name="txtNome" id="idTxtNome" placeholder="Digite seu Nome."
                 oninvalid="setCustomValidity('É obrigatório o preenchimento deste campo.')" required><br>
-                <label for="idTxtEmail">Data de nascimento:</label>
-                <input type="date" name="dtEmail" id="idDtEmail" placeholder="Digite sua senha."
+                <label for="idDtNascimento">Data de nascimento:</label>
+                <input type="date" name="dtNascimento" id="idDtNascimento"
                 oninvalid="setCustomValidity('É obrigatório o preenchimento deste campo.')" required><br>
                 <label for="idTxtEmail">E-Mail:</label>
                 <input type="text" name="txtEmail" id="idTxtEmail" placeholder="Digite seu email."
+                oninvalid="setCustomValidity('É obrigatório o preenchimento deste campo.')"
+                pattern="[a-zA-Z0-9.-_]{3,30}@[a-z0-9-_]{2,10}.[a-z0-9.]{2,7}"  required><br>
+                <label for="idTxtSenha">Senha:</label>
+                <input type="text" name="txtSenha" id="idTxtSenha" placeholder="Digite sua senha."
                 oninvalid="setCustomValidity('É obrigatório o preenchimento deste campo.')" required><br>
-                <label for="idTxtEmail">Senha:</label>
-                <input type="text" name="txtEmail" id="idTxtEmail" placeholder="Digite sua senha."
-                oninvalid="setCustomValidity('É obrigatório o preenchimento deste campo.')" required><br>
-                <label for="idTxtEmail">Confirmar senha:</label>
-                <input type="text" name="txtEmail" id="idTxtEmail" placeholder="Confirme sua senha."
+                <label for="idTxtCfsenha">Confirmar senha:</label>
+                <input type="text" name="txtCfsenha" id="idTxtCfsenha" placeholder="Confirme sua senha."
                 oninvalid="setCustomValidity('É obrigatório o preenchimento deste campo.')" required><br>
                 <a href="./menu.html"><input class="button" type="submit"></a>
             </div>
