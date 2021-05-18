@@ -1,0 +1,57 @@
+body {
+    margin: 0%;
+}
+
+.perfil {
+    display: flex;
+    height: 5vh;
+    margin: 0% 0% 0% 0%;
+    padding-left: 95%;
+}
+
+.fotoperfil {
+    margin-top: 15%;
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+.engrenagem {
+    height: 3vh;
+    width: 1.5vw;
+    margin: 70% 0% 0% 30%;
+}
+
+.boxcima {
+    display: flex;
+    height: 94vh;
+    flex-direction: row;
+}
+
+.opcao1box {
+    height: 60vh;
+    width: 20vw;
+    border: 1px solid black;
+    margin: 7.5% 0% 0% 10%;
+}
+
+.opcao2box {
+    border: 1px solid black;
+    height: 64vh;
+    width: 24vw;
+    margin: 6.5% 8% 0% 8%;
+}
+
+.opcao3box {
+    height: 60vh;
+    width: 20vw;
+    border: 1px solid black;
+    margin: 7.5% 5% 0% 0%;
+}
+
+.boxbaixo {
+    margin-top: 1%;
+    height: 94vh;
+    border: 1px solid black;
+}
