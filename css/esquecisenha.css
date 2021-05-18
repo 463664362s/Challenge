@@ -1,0 +1,40 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #2F4F4F;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+    }
+
+.esquecisenhabox {
+    width: 25vw;
+    height: 20vh;
+    background: #fff;
+    }
+
+.inputs {
+    margin: 2% 8%;
+}
+
+.button {
+    margin: 1% 12%;
+    width: 15vw;
+}
+
+.voltar {
+    margin: 1%;
+    width: 5vw;
+}
+
+p {
+    margin-left: 4%;
+}
+input {
+    width: 20vw; 
+}
+
+body {
+    margin: 0%;
+}
