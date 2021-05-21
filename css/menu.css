@@ -55,3 +55,7 @@ body {
     height: 94vh;
     border: 1px solid black;
 }
+
+.feedback {
+    margin-top: 40%;
+}

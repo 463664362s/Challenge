@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/configuracoes.css" type="text/css">
     <title>Configurações</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="configbox">
+            <div class="fotoperfil"></div> Trocar foto de perfil
+            <div class="configinputs">
+                Nomeusuario<br>
+                <label for="idTxtEmail">Trocar nome de Usuario:</label>
+                <input type="text" name="txtNome" id="idTxtNome" placeholder="Digite seu Nome."
+                oninvalid="setCustomValidity('É obrigatório o preenchimento deste campo.')" required><br>
+                <label for="idTxtEmail">Trocar o E-Mail do usuario:</label>
+                <input type="text" name="txtEmail" id="idTxtEmail" placeholder="Digite seu email."
+                oninvalid="setCustomValidity('É obrigatório o preenchimento deste campo.')"
+                pattern="[a-zA-Z0-9.-_]{3,30}@[a-z0-9-_]{2,10}.[a-z0-9.]{2,7}"  required><br>
+                usuario@email.com<br>
+                <label for="idTxtEmail">Confirmar troca de E-Mail do usuario:</label>
+                <input type="text" name="txtEmail" id="idTxtEmail" placeholder="Confirme seu email."
+                oninvalid="setCustomValidity('É obrigatório o preenchimento deste campo.')"
+                pattern="[a-zA-Z0-9.-_]{3,30}@[a-z0-9-_]{2,10}.[a-z0-9.]{2,7}"  required><br>
+                <label for="idTxtSenha">Troca de senha:</label>
+                <input type="text" name="txtSenha" id="idTxtSenha" placeholder="Digite sua senha."
+                oninvalid="setCustomValidity('É obrigatório o preenchimento deste campo.')" required><br>
+                <label for="idTxtCfsenha">Confirmar troca de senha:</label>
+                <input type="text" name="txtCfsenha" id="idTxtCfsenha" placeholder="Confirme sua senha."
+                oninvalid="setCustomValidity('É obrigatório o preenchimento deste campo.')" required><br>
+            </div>
+            <a href="./menu.html"><input class="voltar" type="button" value="Voltar"></a>
+            <a href=""><input class="confirmar" type="button" value="Confirmar"></a>
+        </div>
+    </div>
 </body>
 </html>

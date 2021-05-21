@@ -1,0 +1,27 @@
+body {
+    margin: 0%;
+}
+
+.perfil {
+    display: flex;
+    height: 5vh;
+    margin: 0% 0% 0% 0%;
+}
+
+.fotoperfil {
+    margin: 1% 0% 0% 92%;
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+.engrenagem {
+    height: 3vh;
+    width: 1.5vw;
+    margin: 90% 0% 0% 30%;
+}
+
+.voltar {
+    margin: 55% 0% 0% 40%;
+}

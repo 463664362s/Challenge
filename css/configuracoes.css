@@ -1,0 +1,50 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #2F4F4F;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.fotoperfil {
+    margin: 2%;
+    height: 80px;
+    width: 80px;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+.configbox {
+    width: 30vw;
+    height: 56vh;
+    background: #fff;
+}
+
+.configinputs {
+    margin: 2% 28%;
+}
+
+.button {
+    margin-left: 2.6%;
+}
+
+.links{
+    margin: 5% 35%;
+}
+
+.voltar {
+    margin-right: 16%;
+}
+
+
+input {
+    width: 12vw;
+    height: 3vh;
+    margin: 0% 0% 5% 1%;
+}
+
+body {
+    margin: 0%;
+}
